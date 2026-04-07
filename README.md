@@ -40,7 +40,9 @@ Data Loading
 
 # Data Preprocessing
 1.Label encoding for categorical variables
+
 2.Binary encoding of target variable
+
 3.Train/Test split (80/20 with stratification)
 
 # Models Used
@@ -54,9 +56,13 @@ Data Loading
 Models were evaluated using:
 
 1.Precision
+
 2.Recall (Key metric for healthcare)
+
 3.F1-score
+
 4.ROC-AUC Score
+
 5.Confusion Matrix
 
 # Key Insights
