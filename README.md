@@ -13,9 +13,13 @@ The goal of this project is to:
 
 # Key Features:
 1.Patient demographics (age)
+
 2.Hospital usage (time in hospital, inpatient visits)
+
 3.Medical activity (lab procedures, medications)
+
 4.Diagnosis categories
+
 5.Diabetes-related tests (A1C, glucose)
 
 # Machine Learning Workflow
