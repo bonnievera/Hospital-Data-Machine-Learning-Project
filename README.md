@@ -44,14 +44,10 @@ Data Loading
 3.Train/Test split (80/20 with stratification)
 
 # Models Used
-1. Logistic Regression
--Baseline model
--Interpretable
--Handles class imbalance with class_weight='balanced'
-2. Random Forest
--Ensemble model using decision trees
--Handles non-linear relationships
--Provides feature importance
+1. Logistic Regression:
+ -Baseline model, Interpretable and Handles class imbalance with class weight= 'balanced'
+2. Random Forest:
+ -Ensemble model using decision trees, Handles non-linear relationships and Provides feature importance.
 
 # Model Evaluation
 
@@ -70,9 +66,4 @@ Models were evaluated using:
 4. Class imbalance impacts model performance and must be handled carefully
 
 # Technologies Used
-Python
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+Python, pandas, numpy, matplotlib, seaborn, scikit-learn
