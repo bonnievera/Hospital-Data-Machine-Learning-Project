@@ -64,10 +64,10 @@ Models were evaluated using:
 -Confusion Matrix
 
 # Key Insights
-Prior hospital visits (n_inpatient) are strong predictors of readmission
-Medication and lab activity also influence outcomes
-Random Forest generally outperforms Logistic Regression
-Class imbalance impacts model performance and must be handled carefully
+1. Prior hospital visits (n_inpatient) are strong predictors of readmission
+2. Medication and lab activity also influence outcomes
+3. Random Forest generally outperforms Logistic Regression
+4. Class imbalance impacts model performance and must be handled carefully
 
 # Technologies Used
 Python
