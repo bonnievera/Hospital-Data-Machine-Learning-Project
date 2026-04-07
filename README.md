@@ -12,36 +12,36 @@ The goal of this project is to:
 - Compare multiple machine learning models
 
 # Key Features:
--Patient demographics (age)
--Hospital usage (time in hospital, inpatient visits)
--Medical activity (lab procedures, medications)
--Diagnosis categories
--Diabetes-related tests (A1C, glucose)
+1.Patient demographics (age)
+2.Hospital usage (time in hospital, inpatient visits)
+3.Medical activity (lab procedures, medications)
+4.Diagnosis categories
+5.Diabetes-related tests (A1C, glucose)
 
 # Machine Learning Workflow
 
 This project follows a structured ML pipeline:
 
 Data Loading
--Exploratory Data Analysis (EDA)
--Data Preprocessing
--Feature Encoding
--Train/Test Split
--Model Training
--Model Evaluation
+1. Exploratory Data Analysis (EDA)
+2. Data Preprocessing
+3. Feature Encoding
+4. Train/Test Split
+5. Model Training
+6. Model Evaluation
 
 # Exploratory Data Analysis (EDA)
--Checked data types and missing values
--Analyzed class imbalance
--Visualized:
--Feature distributions
--Readmission rates by age
--Correlation heatmap
+1. Checked data types and missing values
+2. Analyzed class imbalance
+3. Visualized:
+4. Feature distributions
+5. Readmission rates by age
+6. Correlation heatmap
 
 # Data Preprocessing
--Label encoding for categorical variables
--Binary encoding of target variable
--Train/Test split (80/20 with stratification)
+1.Label encoding for categorical variables
+2.Binary encoding of target variable
+3.Train/Test split (80/20 with stratification)
 
 # Models Used
 1. Logistic Regression
@@ -57,11 +57,11 @@ Data Loading
 
 Models were evaluated using:
 
--Precision
--Recall (Key metric for healthcare)
--F1-score
--ROC-AUC Score
--Confusion Matrix
+1.Precision
+2.Recall (Key metric for healthcare)
+3.F1-score
+4.ROC-AUC Score
+5.Confusion Matrix
 
 # Key Insights
 1. Prior hospital visits (n_inpatient) are strong predictors of readmission
